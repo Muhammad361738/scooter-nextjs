@@ -7,7 +7,7 @@ import image15 from "../Assests/image15.png"
 import image16 from "../Assests/image16.png"
 const Colors = () => {
     return (
-        <div className='w-auto h-auto mt-10'>
+        <div className='w-auto h-auto relative mt-10'>
              <div className=''>
             <h1 className='text-4xl text-center font-bold text-gray-700'>Colors</h1>
             <p className=' text-sm lg:text-xl text-center mt-5 text-gray-700'>Check out our products colors</p>

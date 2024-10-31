@@ -6,6 +6,7 @@ import HighMoter from "./components/HighMoter";
 import MultipleAcc from "./components/MultipleAcc"
 import Gallery from "./Gallery/page";
 import Colors from "./components/Colors"
+import Footer from "./components/Footer/footer"
 export default function Home() {
   return (
    <>
@@ -16,6 +17,7 @@ export default function Home() {
    <MultipleAcc/>
    <Gallery/>
    <Colors/>
+   <Footer/>
    </>
   );
 }
