@@ -27,7 +27,7 @@ const Page = () => {
 
               <div className='mt-20'>
               <Image className='w-80 md:w-96' src={image10} alt=''></Image>
-              <Image className='w-80 md:w-96 mt-10' src={image11} alt=''></Image>
+              <Image className='w-80 h-80 md:w-96 mt-10' src={image11} alt=''></Image>
 
               </div>
               <div>

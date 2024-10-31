@@ -22,7 +22,29 @@ const Page = () => {
           {/* Desktop Menu */}
           <div className="hidden md:block pt-4 ">
             <ul className="outline-none flex gap-5 pr-10">
-              <li><Link href="/">PRODUCTS</Link></li>
+            <li className="relative group">
+          <Link href="/" className=" flex items-center">
+            PRODUCTS <span className="ml-1">▼</span>
+          </Link>
+               <ul className="absolute left-0 mt-2 space-y-2 bg-white border rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-200">
+            <li>
+              <Link href="/ProductInfo" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">
+              ProductInfo
+              </Link>
+            </li>
+            <li>
+              <Link href="/product2" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">
+                Product 2
+              </Link>
+            </li>
+            <li>
+              <Link href="/product3" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">
+                Product 3
+              </Link>
+            </li>
+          </ul>
+        </li>
+
               <li><Link href="/ProductInfo">GALLERY</Link></li>
               <li><Link href="/Menu">CONTACT</Link></li>
             </ul>
@@ -30,7 +52,7 @@ const Page = () => {
           <div className='hidden md:block'>
             <ul className='outline-none flex gap-4 pr-10'>
                 <li>LOG IN</li>
-                <li>SIGN HUP</li>
+                <li>SIGN UP</li>
             </ul>
           </div>
 
@@ -46,9 +68,9 @@ const Page = () => {
         <div className="fixed inset-0 bg-white flex flex-col items-center justify-center">
           <button onClick={toggleMenu} className="absolute top-5 right-5 text-4xl text-black">&#10006;</button>
           <ul className="text-center text-black text-2xl space-y-6">
-            <li><Link href="/" onClick={toggleMenu}>PRODUCTS</Link></li>
-            <li><Link href="/About" onClick={toggleMenu}>GALLERY</Link></li>
-            <li><Link href="/Menu" onClick={toggleMenu}>CONTACT</Link></li>
+            <li><Link href="/" onClick={toggleMenu}>Product</Link></li>
+            <li><Link href="/" onClick={toggleMenu}>GALLERY</Link></li>
+            <li><Link href="/" onClick={toggleMenu}>CONTACT</Link></li>
             <li><Link href="" onClick={toggleMenu}>LOG IN</Link></li>
             <li><Link href="" onClick={toggleMenu}>SIGN HUP</Link></li>
           </ul>   

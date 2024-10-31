@@ -3,7 +3,6 @@ import Image from 'next/image';
 import f1 from "../../Assests/f1.jpg"
 import f2 from "../../Assests/f2.jpg"
 import f6 from "../../Assests/f6.jpg"
-import f4 from "../../Assests/f4.jpg"
 import footer from "../../Assests/footer.png"
 
 const Page = () => {
@@ -50,7 +49,6 @@ const Page = () => {
                         <Image className='h-10 w-10 rounded-full bg-white ' src={f6} alt = ""></Image>
                     </div>
                     <div>
-                        {/* <Image className='h-10 w-10 rounded-full  bg-white' src={f4} alt = ""></Image> */}
                     </div>
                 </div>
             </div>
