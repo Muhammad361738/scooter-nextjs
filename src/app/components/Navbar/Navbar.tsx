@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Link from "next/link";
 import Image from 'next/image';
-import logo from "../Assests/logo.png"
+import logo from "../../Assests/logo.png"
 
 const Page = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,20 +33,20 @@ const Page = () => {
               </Link>
             </li>
             <li>
-              <Link href="/product2" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">
-                Product 2
+              <Link href="/MultipleAcc" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">
+                MultipleAcc
               </Link>
             </li>
             <li>
-              <Link href="/product3" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">
-                Product 3
+              <Link href="/HighMotor" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">
+                HighMotor
               </Link>
             </li>
           </ul>
         </li>
 
               <li><Link href="/ProductInfo">GALLERY</Link></li>
-              <li><Link href="/Menu">CONTACT</Link></li>
+              <li><Link href="/Contact">CONTACT</Link></li>
             </ul>
           </div>
           <div className='hidden md:block'>
@@ -69,8 +69,11 @@ const Page = () => {
           <button onClick={toggleMenu} className="absolute top-5 right-5 text-4xl text-black">&#10006;</button>
           <ul className="text-center text-black text-2xl space-y-6">
             <li><Link href="/" onClick={toggleMenu}>Product</Link></li>
-            <li><Link href="/" onClick={toggleMenu}>GALLERY</Link></li>
-            <li><Link href="/" onClick={toggleMenu}>CONTACT</Link></li>
+            <li><Link href="/ProductInfo" onClick={toggleMenu}>ProductInfo</Link></li>
+            <li><Link href="/Contact" onClick={toggleMenu}>CONTACT</Link></li>
+            <li><Link href="/MultipleAcc" onClick={toggleMenu}>MultipleAcc</Link></li>
+            <li><Link href="/Gallery" onClick={toggleMenu}>Gallery</Link></li>
+
             <li><Link href="" onClick={toggleMenu}>LOG IN</Link></li>
             <li><Link href="" onClick={toggleMenu}>SIGN HUP</Link></li>
           </ul>   

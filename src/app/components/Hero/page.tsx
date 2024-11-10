@@ -1,9 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
-import image2 from "../Assests/image2.png"
-import image1 from "../Assests/image1.png"
-import Link from 'next/link';
-import arrow from "../Assests/arrow.jpg"
+import image2 from "../../Assests/image2.png"
+import image1 from "../../Assests/image1.png"
+import arrow from "../../Assests/arrow.jpg"
 
 const Hero = () => {
     return (

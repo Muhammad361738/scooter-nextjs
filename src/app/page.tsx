@@ -1,13 +1,12 @@
-import Image from "next/image";
-import Navbar from "./components/Navbar"
-import Hero from "./components/Hero";
-import ProductInfo from "./components/ProductInfo";
-import HighMoter from "./components/HighMoter";
-import MultipleAcc from "./components/MultipleAcc"
+
+import Hero from "./components/Hero/page";
+import ProductInfo from "./ProductInfo/page";
+import HighMoter from "./HighMotor/page";
+import MultipleAcc from "./MultipleAcc/page"
 import Gallery from "./Gallery/page";
-import Colors from "./components/Colors"
+import Colors from "./Colors/Page"
 import Footer from "./components/Footer/footer"
-import Contact from "./components/Contact/page"
+import Contact from "./Contact/page"
 export default function Home() {
   return (
    <>
