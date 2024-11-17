@@ -21,7 +21,7 @@ const Page = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:block pt-4 ">
-            <ul className="outline-none flex gap-5 pr-10">
+            <ul className="outline-none flex  gap-5 pr-10">
             <li className="relative group">
           <Link href="/" className=" flex items-center">
             PRODUCTS <span className="ml-1">▼</span>
@@ -51,8 +51,8 @@ const Page = () => {
           </div>
           <div className='hidden md:block'>
             <ul className='outline-none flex gap-4 pr-10'>
-                <li>LOG IN</li>
-                <li>SIGN UP</li>
+                <li className='pt-2'>LOG IN</li>
+                <li className='bg-gray-700  p-2 rounded-xl text-white'>SIGN UP</li>
             </ul>
           </div>
 
