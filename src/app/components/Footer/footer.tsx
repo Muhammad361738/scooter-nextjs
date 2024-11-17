@@ -8,7 +8,7 @@ import footer from "../../Assests/footer.png"
 const Page = () => {
     return (
         <div className='bg-gray-700'>
-        <div className='flex flex-wrap gap-20 lg:justify-start relative  md:top-0'>
+        <div className='flex flex-wrap justify-center gap-20 lg:justify-start relative  md:top-0'>
                 <Image className='w-96 h-auto z-10 ' src={footer} alt=''></Image>
             
             {/* second coloumn */}
