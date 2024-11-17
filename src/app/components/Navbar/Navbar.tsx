@@ -75,7 +75,7 @@ const Page = () => {
             <li><Link href="/Gallery" onClick={toggleMenu}>Gallery</Link></li>
 
             <li><Link href="" onClick={toggleMenu}>LOG IN</Link></li>
-            <li><Link href="" onClick={toggleMenu}>SIGN HUP</Link></li>
+            <li><Link href="" onClick={toggleMenu}>SIGN UP</Link></li>
           </ul>   
         </div>
         
